@@ -1,6 +1,6 @@
 /*
 Project Name: Relaxr Blog
-Author: Your Name
+Author: Esmeralda Hoscoy
 Developer @GA in NYC
 */
 
@@ -41,6 +41,75 @@ Developer @GA in NYC
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+header nav {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: auto;
+    width: 80%;
+    background-color: #033048
+  }
+
+/* Sign up now */
+
+section {
+    background-color: #f9e42e;  
+    color:#f0efef;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+section a {
+    background-color: #003366;
+    border-radius: 5px;
+    color: #ffffff;
+    display: block;
+    font-size: 15px;
+    font-weight: 800;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+  }
+
+/* footer */
+
+footer {
+    background-color: #333333;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+  }
+
+footer h3 {
+    color: #f9e42e;
+    font-size: 24px;
+  }
+
+div {
+    padding-top: 40px;
+  }
+
+footer .twitter {
+    margin-right: 3%;
+  }
+
+footer .facebook{
+    margin-right: 3%;
+  }
+
+#copyright {
+    font-size: 9px;
+  }
+
 
 
 
