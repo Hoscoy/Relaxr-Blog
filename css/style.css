@@ -4,7 +4,6 @@ Author: Esmeralda Hoscoy
 Developer @GA in NYC
 */
 
-
 /******************************************
 /* SETUP
 /*******************************************/
@@ -43,28 +42,79 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+/* Header */
+
+header {
+  background-color: #033048;
+  height: 100%;   /* study */
+  overflow: auto; /*both of these clear similar to a float: clear;*/
+  }
+
+header h1 {
+  color: #ffffff;
+  float: left;
+  font-size: 50px;
+  margin-left: 10%;
   }
 
 header nav {
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 600;
-    margin: auto;
-    width: 80%;
-    background-color: #033048
+  font-size: 24px;
+  margin-right: 10%;
+  margin-top: 3%;
+  float: right;
   }
 
-/* Sign up now */
+header nav a {
+  color: #FFFF00;
+  text-decoration: none;
+  display: block;
+  float: right;
+  margin-left: 20px; 
+  }
 
-section {
-    background-color: #f9e42e;  
-    color:#f0efef;
+/* Content (THE WHOLE AREA WITH TWO SECTIONS) */
+
+.content {
+  width: 960px;
+  margin: auto;
+}
+
+/* POSTS SECTION (LEFT SIDE) */
+
+.posts {
+ font-size: 40px;
+ margin-left: 10%;
+ width: 700px;
+ }
+
+.posts p {
+ font-size: 24px;
+ font-style: semibold; 
+ }
+
+/* QUICKLINKS (RIGHT SIDE) */
+
+.quicklinks {
+ float: right;
+ clear: none;
+ width: 240px;
+ margin-left: 20px;
+ font-size: 24px;
+}
+
+/* SIGN UP NOW SECTION */
+
+.signUpNow {
+    background-color: #FFFF00; 
+    color: #f0efef;
     padding-bottom: 20px;
     padding-top: 20px;
   }
 
-section a {
+.signUpNow a {
     background-color: #003366;
     border-radius: 5px;
     color: #ffffff;
@@ -79,7 +129,6 @@ section a {
   }
 
 /* footer */
-
 footer {
     background-color: #333333;
     padding-bottom: 20px;
@@ -90,7 +139,7 @@ footer {
   }
 
 footer h3 {
-    color: #f9e42e;
+    color: #FFFF00;
     font-size: 24px;
   }
 
@@ -109,8 +158,3 @@ footer .facebook{
 #copyright {
     font-size: 9px;
   }
-
-
-
-
-
