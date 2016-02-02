@@ -149,6 +149,8 @@ span {
 
  div .about {
   color: #606161;
+  overflow: hidden;
+  margin-right: 10px;
 }
 
   div .about a {
